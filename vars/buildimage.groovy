@@ -1,3 +1,3 @@
 def buildimage(){
-  docker build -t hello_war:1.0 .
+  sh 'docker build -t hello_war:1.0 .'
 }
